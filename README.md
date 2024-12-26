@@ -231,6 +231,10 @@ including the necessary software dependencies, configuration steps, and tips for
     Status: Downloaded newer image for hello-world:latest
     docker.io/library/hello-world:latest
 
+## 设置全局代理
+
+export HTTP_PROXY=http://127.0.0.1:10809
+export HTTPS_PROXY=http://127.0.0.1:10809
 
 
 
