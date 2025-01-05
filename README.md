@@ -237,5 +237,12 @@ export HTTP_PROXY=http://127.0.0.1:10809
 
 export HTTPS_PROXY=http://127.0.0.1:10809
 
+## GIT代理设置
+
+git config --global http.proxy http://127.0.0.1:4319
+
+git config --global https.proxy https://127.0.0.1:4319
+
+
 
 
