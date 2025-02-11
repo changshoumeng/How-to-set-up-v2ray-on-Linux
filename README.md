@@ -243,6 +243,15 @@ git config --global http.proxy http://127.0.0.1:4319
 
 git config --global https.proxy https://127.0.0.1:4319
 
+## 设置全局代理
+
+export HTTP_PROXY=http://192.168.20.136:10809
+
+export HTTPS_PROXY=http://192.168.20.136:10809
+
+sudo -E docker build --progress=plain -t test -f xinference/deploy/docker/Dockerfile .
+
+
 
 
 
